@@ -1,0 +1,2 @@
+Pour reset:
+# exec factoryreset
