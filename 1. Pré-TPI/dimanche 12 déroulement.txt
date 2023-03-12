@@ -1,4 +1,8 @@
 Journal 12.03.2023
+
+sur base de: 
+https://docs.fortinet.com/document/fortigate/6.2.13/cookbook/402940/vlans
+
 Sortir internal 1 et 2 de l'interface internal
 Créer les vlans 100 et 200
 Test: dhcp server toggle on sur vlans: echec
@@ -13,3 +17,8 @@ virer VLAN_100 et voir impact sur internal1 et la connexion du mac
 prochain test, libérer port 3 et essayer d'ajouter à internal1...putain ça fait pas de sens
 
 ensuite routing entre internal1 et 2 pour ping
+
+subnet overlap
+https://community.fortinet.com/t5/Support-Forum/One-Vlan-on-multiple-ethernet-interfaces/td-p/33801
+https://community.fortinet.com/t5/FortiGate/Technical-Tip-Enable-subnet-overlap-to-set-IP-addresses-of/ta-p/191639?externalID=FD30014
+
