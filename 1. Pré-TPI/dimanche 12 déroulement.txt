@@ -6,6 +6,9 @@ Test: dhcp server on sur internal 1: succès
 Test: ping 172.18.1.2 -> 172.18.1.1: succès
 Test: connexion 172.18.1.1 via browser: succès
 
+Ports 3 et 4 libérés: impossible de créer VLAN_300 et d'ajouter deux ports physique, seulement 1
+Port 4 n'a pas besoin de VLAN pour fonctionner comme les autres
+
 virer VLAN_100 et voir impact sur internal1 et la connexion du mac
 prochain test, libérer port 3 et essayer d'ajouter à internal1...putain ça fait pas de sens
 
