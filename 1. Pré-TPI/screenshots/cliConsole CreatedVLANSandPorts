@@ -1,0 +1,43 @@
+ 
+Connected
+
+FG_80F_DMA # config system interface
+ 
+FG_80F_DMA (interface) # edit VLAN_100
+new entry 'VLAN_100' added
+ 
+FG_80F_DMA (VLAN_100) # set vdom root
+ 
+FG_80F_DMA (VLAN_100) # set interface internal1
+ 
+FG_80F_DMA (VLAN_100) # set type vlan
+ 
+FG_80F_DMA (VLAN_100) # set vlanid 100
+ 
+FG_80F_DMA (VLAN_100) # set mode static
+ 
+FG_80F_DMA (VLAN_100) # set ip 10.1.1.1 255.255.255.0
+ 
+FG_80F_DMA (VLAN_100) # set allowaccess https ping
+ 
+FG_80F_DMA (VLAN_100) # next
+ 
+FG_80F_DMA (interface) # edit VLAN_200
+new entry 'VLAN_200' added
+ 
+FG_80F_DMA (VLAN_200) # set vdom root
+ 
+FG_80F_DMA (VLAN_200) # set interface internal2
+ 
+FG_80F_DMA (VLAN_200) # set type vlan
+ 
+FG_80F_DMA (VLAN_200) # set vlanid 200
+ 
+FG_80F_DMA (VLAN_200) # set mode static
+ 
+FG_80F_DMA (VLAN_200) # set ip 10.1.2.1 255.255.255.0
+ 
+FG_80F_DMA (VLAN_200) # set allowaccess https ping
+ 
+FG_80F_DMA (VLAN_200) # end
+ 

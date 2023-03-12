@@ -1,0 +1,17 @@
+
+FG_80F_DMA # config system virtual-switch
+ 
+FG_80F_DMA (virtual-switch) # edit "internal"
+ 
+FG_80F_DMA (internal) # set physical-switch "sw0"
+ 
+FG_80F_DMA (internal) # config port
+ 
+FG_80F_DMA (port) # edit "internal2"
+new entry 'internal2' added
+ 
+FG_80F_DMA (internal2) # end
+ 
+FG_80F_DMA (internal) # end
+ 
+FG_80F_DMA #  

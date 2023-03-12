@@ -1,0 +1,16 @@
+
+FG_80F_DMA # config system virtual-switch
+ 
+FG_80F_DMA (virtual-switch) # edit "internal"
+ 
+FG_80F_DMA (internal) # config port
+ 
+FG_80F_DMA (port) # delete internal2
+ 
+FG_80F_DMA (port) # end
+ 
+FG_80F_DMA (internal) # next
+ 
+FG_80F_DMA (virtual-switch) # end
+ 
+FG_80F_DMA #  
